@@ -1,0 +1,6 @@
+build project:
+  image: node:16-alpine
+  script:
+    - npm intsall
+    - npm test
+    - npm build
